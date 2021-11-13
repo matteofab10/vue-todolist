@@ -1,0 +1,55 @@
+.mf-box-logo img {
+  width: 100px;
+}
+
+.mf-box-logo h1 {
+  margin-left: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.container input {
+  width: 300px;
+  margin-right: 20px;
+  line-height: 50px;
+  padding: 0 10px;
+}
+
+.container button {
+  line-height: 50px;
+  padding: 0 10px;
+}
+
+.mf-box-todolist {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, .2);
+  border-radius: 10px;
+}
+
+.mf-box-todolist ul {
+  width: 100%;
+  list-style: none;
+  padding: 10px 20px;
+}
+
+.mf-box-todolist ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.mf-box-todolist ul li:hover {
+  background-color: white;
+  border-radius: 10px;
+  transition: all .1s;
+}
+
+.mf-box-todolist ul li .fas.fa-times {
+  cursor: pointer;
+}
+
+.deleted {
+  color: rgba(0, 0, 0, 0.2);
+  text-decoration: line-through;
+}
